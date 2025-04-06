@@ -45,13 +45,11 @@ Installation and Setup
 1. Clone the Repository
 Clone the repository from GitHub to your local machine:
 
-bash
-Copy
+
 git clone https://github.com/Harshith-123/Hostel-managementsystem.git
 Navigate to the project directory:
 
-bash
-Copy
+
 cd Hostel-managementsystem
 2. Database Setup
 Create a New Database:
@@ -60,8 +58,7 @@ Open your MySQL client (or your preferred DBMS).
 
 Create a new database. For example, in MySQL:
 
-sql
-Copy
+
 CREATE DATABASE hostel_db;
 Import the Database Schema and Sample Data:
 
@@ -69,8 +66,7 @@ Locate the SQL script provided in the project (commonly found in a /sql or /db f
 
 Import the script into your database. For example:
 
-bash
-Copy
+
 mysql -u your_username -p hostel_db < path/to/schema.sql
 Ensure the tables and sample data are successfully created.
 
@@ -97,32 +93,25 @@ For Java Projects:
 
 Open a terminal in the project directory and build the project using Maven:
 
-bash
-Copy
+
 mvn clean install
 For Python Projects:
 
 Create a virtual environment (optional but recommended):
 
-bash
-Copy
+
 python -m venv venv
 Activate the virtual environment:
 
 On Windows:
 
-bash
-Copy
 venv\Scripts\activate
 On macOS/Linux:
 
-bash
-Copy
+
 source venv/bin/activate
 Install required packages:
 
-bash
-Copy
 pip install -r requirements.txt
 Running the Application
 Using Visual Studio Code
@@ -138,8 +127,7 @@ For Java Projects:
 
 Use the integrated terminal to run the main class. For example:
 
-bash
-Copy
+
 mvn exec:java -Dexec.mainClass="com.yourcompany.HostelManagementSystem"
 Alternatively, set up a launch configuration in VS Code to run and debug the application.
 
@@ -149,8 +137,7 @@ Open the integrated terminal in VS Code.
 
 Run the application:
 
-bash
-Copy
+
 python app.py
 For Web Applications:
 
@@ -159,8 +146,7 @@ Start the web server as per your project’s instructions and open your browser 
 Using the Command Line
 Navigate to your project directory:
 
-bash
-Copy
+
 cd path/to/Hostel-managementsystem
 Run the appropriate command for your platform as described above.
 
@@ -229,20 +215,15 @@ Fork the repository.
 
 Create a feature branch:
 
-bash
-Copy
+
 git checkout -b feature/YourFeature
 Commit your changes:
 
-bash
-Copy
+
 git commit -am 'Add new feature'
 Push to the branch:
 
-bash
-Copy
+
 git push origin feature/YourFeature
 Create a Pull Request with a detailed description of your changes.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
